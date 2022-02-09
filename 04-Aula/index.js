@@ -50,6 +50,7 @@ ObterEnderecoPromise = util.promisify(ObterEndereco);
 
 //Primeiro passo add a palavra async -> automaticamente a função vai retornar uma promise
 main();
+
 async function main(){
     try{
         console.time('medida-promise');
