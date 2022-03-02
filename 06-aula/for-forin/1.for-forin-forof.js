@@ -25,6 +25,7 @@ async function main(){
             names.push(result.name);
         }
         console.timeEnd('forof');
+        
         console.log(names);
     } catch (error) {
         console.error('Erro', error);
